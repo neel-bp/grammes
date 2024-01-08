@@ -114,8 +114,18 @@ func (ws *WebSocket) Read() (msg []byte, err error) {
 // channel to signal the websocket's ping selection.
 func (ws *WebSocket) Close() error {
 	defer func() {
-		_, ok := <-ws.Quit
-		if ok {
+		select {
+		case _, ok := <-ws.Quit:
+			if ok {
+				close(ws.Quit) // close the channel to notify our pinger.
+				ws.conn.Close()
+				ws.disposed = true
+			} else {
+				ws.conn.Close()
+				ws.disposed = true
+			}
+
+		case <-time.After(1 * time.Second):
 			close(ws.Quit) // close the channel to notify our pinger.
 			ws.conn.Close()
 			ws.disposed = true
