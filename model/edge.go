@@ -23,7 +23,7 @@ package model
 import (
 	"errors"
 
-	"github.com/northwesternmutual/grammes/query/traversal"
+	"github.com/neel-bp/grammes/query/traversal"
 )
 
 // Edge is the object that builds a
@@ -31,7 +31,7 @@ import (
 //
 // Tinkerpop: http://tinkerpop.apache.org/javadocs/3.2.1/core/org/apache/tinkerpop/gremlin/structure/Edge.html
 //
-//  outVertex ---label---> inVertex.
+//	outVertex ---label---> inVertex.
 type Edge struct {
 	Type  string    `json:"@type"`
 	Value EdgeValue `json:"@value"`

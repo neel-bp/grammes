@@ -21,8 +21,8 @@
 package grammes
 
 import (
-	"github.com/northwesternmutual/grammes/gremconnect"
-	"github.com/northwesternmutual/grammes/model"
+	"github.com/neel-bp/grammes/gremconnect"
+	"github.com/neel-bp/grammes/model"
 )
 
 var (
@@ -52,7 +52,7 @@ var (
 //
 // TinkerPop: http://tinkerpop.apache.org/javadocs/3.2.1/core/org/apache/tinkerpop/gremlin/structure/Vertex.html
 //
-//  ---inEdges---> vertex ---outEdges--->.
+//	---inEdges---> vertex ---outEdges--->.
 //
 // Vertex maintains pointers to both a set
 // of incoming and outgoing Edge objects. The
@@ -75,7 +75,7 @@ type VertexValue = model.VertexValue
 //
 // Tinkerpop: http://tinkerpop.apache.org/javadocs/3.2.1/core/org/apache/tinkerpop/gremlin/structure/Edge.html
 //
-//  outVertex ---label---> inVertex.
+//	outVertex ---label---> inVertex.
 //
 // Edge is the object that builds a
 // connection between two or more vertices.

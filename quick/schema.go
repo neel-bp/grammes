@@ -21,9 +21,9 @@
 package quick
 
 import (
-	"github.com/northwesternmutual/grammes/query/cardinality"
-	"github.com/northwesternmutual/grammes/query/datatype"
-	"github.com/northwesternmutual/grammes/query/multiplicity"
+	"github.com/neel-bp/grammes/query/cardinality"
+	"github.com/neel-bp/grammes/query/datatype"
+	"github.com/neel-bp/grammes/query/multiplicity"
 )
 
 // AddEdgeLabel adds the edge label to the

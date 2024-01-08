@@ -22,6 +22,7 @@
 Package multiplicity contains the object to control property sets for an edge.
 
 See:
+
 	Titan: http://titan.thinkaurelius.com/javadoc/1.0.0/com/thinkaurelius/titan/core/Multiplicity.html
 	Wikipedia: http://en.wikipedia.org/wiki/Class_diagram#Multiplicity
 	Object-oriented Systems Modeling Laboratory (OSM): http://osm7.cs.byu.edu/OSA/participConst.html
@@ -36,8 +37,8 @@ This object implements the Parameter interfaces used by graph traversals.
 package multiplicity
 
 import (
-	"github.com/northwesternmutual/grammes/query/cardinality"
-	"github.com/northwesternmutual/grammes/query/direction"
+	"github.com/neel-bp/grammes/query/cardinality"
+	"github.com/neel-bp/grammes/query/direction"
 )
 
 // Titan:

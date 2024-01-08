@@ -21,8 +21,8 @@
 package grammes
 
 import (
-	"github.com/northwesternmutual/grammes/query/graph"
-	"github.com/northwesternmutual/grammes/query/traversal"
+	"github.com/neel-bp/grammes/query/graph"
+	"github.com/neel-bp/grammes/query/traversal"
 )
 
 // The graph's object to traverse
@@ -37,7 +37,8 @@ func Traversal() traversal.String {
 // CustomTraversal could be used when you need to specifically
 // need to change some property of the traversal.
 // This can be something such as:
-//  // ==> graph.traversal().withoutStrategies(LazyBarrierStrategy)
+//
+//	// ==> graph.traversal().withoutStrategies(LazyBarrierStrategy)
 func CustomTraversal(q string) traversal.String {
 	return traversal.NewCustomTraversal(q)
 }

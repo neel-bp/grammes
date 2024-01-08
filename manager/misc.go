@@ -25,10 +25,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/northwesternmutual/grammes/gremerror"
-	"github.com/northwesternmutual/grammes/logging"
-	"github.com/northwesternmutual/grammes/model"
-	"github.com/northwesternmutual/grammes/query/traversal"
+	"github.com/neel-bp/grammes/gremerror"
+	"github.com/neel-bp/grammes/logging"
+	"github.com/neel-bp/grammes/model"
+	"github.com/neel-bp/grammes/query/traversal"
 )
 
 type miscQueryManager struct {

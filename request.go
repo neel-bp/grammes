@@ -21,8 +21,8 @@
 package grammes
 
 import (
-	"github.com/northwesternmutual/grammes/gremconnect"
-	"github.com/northwesternmutual/grammes/gremerror"
+	"github.com/neel-bp/grammes/gremconnect"
+	"github.com/neel-bp/grammes/gremerror"
 )
 
 var (

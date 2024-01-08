@@ -23,10 +23,10 @@ package grammes
 import (
 	"sync"
 
-	"github.com/northwesternmutual/grammes/gremconnect"
-	"github.com/northwesternmutual/grammes/gremerror"
-	"github.com/northwesternmutual/grammes/logging"
-	"github.com/northwesternmutual/grammes/manager"
+	"github.com/neel-bp/grammes/gremconnect"
+	"github.com/neel-bp/grammes/gremerror"
+	"github.com/neel-bp/grammes/logging"
+	"github.com/neel-bp/grammes/manager"
 )
 
 // maxConCurrentMessages determines the size of the request channel.

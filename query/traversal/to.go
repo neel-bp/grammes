@@ -23,7 +23,7 @@ package traversal
 import (
 	"fmt"
 
-	"github.com/northwesternmutual/grammes/query/direction"
+	"github.com/neel-bp/grammes/query/direction"
 )
 
 // http://tinkerpop.apache.org/docs/current/reference/#to-step
@@ -31,8 +31,9 @@ import (
 // To (step-modulator) similar to As() and By(). If a step is able to accept
 // traversals or strings then To() is the means by which they are added.
 // Note:
-// - To does not handle any string formatting for you. If you wish to pass
-//   a regular string as a parameter you must add single-quotes around it beforehand.
+//   - To does not handle any string formatting for you. If you wish to pass
+//     a regular string as a parameter you must add single-quotes around it beforehand.
+//
 // Signatures:
 // To(Direction, ...string)
 // To(string)

@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/northwesternmutual/grammes/gremconnect"
-	"github.com/northwesternmutual/grammes/logging"
+	"github.com/neel-bp/grammes/gremconnect"
+	"github.com/neel-bp/grammes/logging"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

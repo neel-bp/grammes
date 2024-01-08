@@ -21,7 +21,7 @@
 package model
 
 import (
-	"github.com/northwesternmutual/grammes/query/traversal"
+	"github.com/neel-bp/grammes/query/traversal"
 )
 
 // Vertex maintains pointers to both a set
@@ -32,7 +32,7 @@ import (
 //
 // TinkerPop: http://tinkerpop.apache.org/javadocs/3.2.1/core/org/apache/tinkerpop/gremlin/structure/Vertex.html
 //
-//  ---inEdges---> vertex ---outEdges--->.
+//	---inEdges---> vertex ---outEdges--->.
 type Vertex struct {
 	Type  string      `json:"@type"`
 	Value VertexValue `json:"@value"`
